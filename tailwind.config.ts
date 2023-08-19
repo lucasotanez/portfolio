@@ -13,6 +13,28 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'black-olive': '#424342',
+        'cp-green': '#244f26',
+        'office-green': '#256d1b',
+        'forest-green': '#149911',
+        'green': '#1efc1e',
+
+        'delft': '#2f3061',
+        'jet': '#343434',
+        'mint-cream': '#f7fff7',
+        'naples-yellow': '#ffe66d',
+        'deep-green': '#0a1c0f'
+      },
+      zIndex: {
+        'n1': '-1',
+        '0': '0'
+      },
+      width: {
+        '128': '32rem',
+        '144': '40rem',
+      },
+
     },
   },
   plugins: [],

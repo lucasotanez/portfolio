@@ -1,8 +1,9 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Ubuntu } from 'next/font/google'
+import Navbar from './Navbar'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Ubuntu({ weight: '500', subsets: ["cyrillic"] })
 
 export const metadata: Metadata = {
   title: 'Portfolio',
@@ -16,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Navbar/>
+        {children}
+      </body>
     </html>
   )
 }
