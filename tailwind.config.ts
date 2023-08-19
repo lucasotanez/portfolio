@@ -18,6 +18,7 @@ const config: Config = {
         'cp-green': '#244f26',
         'office-green': '#256d1b',
         'forest-green': '#149911',
+        'google-green': '#367a27',
         'green': '#1efc1e',
 
         'delft': '#2f3061',
@@ -33,7 +34,15 @@ const config: Config = {
       width: {
         '128': '32rem',
         '144': '40rem',
+        '500': '500px',
+        '9/10': '90%'
       },
+      height: {
+        'hs': '538px'
+      },
+      lineHeight: {
+        '16': '4rem'
+      }
 
     },
   },
