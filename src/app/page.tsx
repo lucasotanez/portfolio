@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Frog from './Frog'
 import Skills from './Skills'
+import Projects from './Projects'
 
 export default function Home() {
   return (
@@ -19,15 +20,15 @@ export default function Home() {
           </div>
           */}
 
-          <div id='intro-wrapper' className="group relative">
-            <div id='intro' className="flex flex-col h-72 w-144 items-center justify-center
+          <div id='intro-wrapper' className="relative">
+            <div id='intro' className="peer flex flex-col h-72 w-144 items-center justify-center
                 text-center rounded-lg bg-gray-200 relative z-20">
               <h1 className="text-blue-900 font-bold text-7xl mb-4">Lucas Otañez</h1>
               <p className="text-black text-2xl">Full Stack Software Engineer</p>
             </div>
-            <div className="duration-100 bg-black h-72 w-144 rounded-lg absolute top-5 group-hover:top-6 left-5 group-hover:left-6 z-10">
+            <div className="duration-100 bg-black h-72 w-144 rounded-lg absolute peer-hover:top-5 rotate-6 peer-hover:rotate-0 top-7 peer-hover:left-5 left-10 z-10">
             </div>
-            <div className="duration-100 bg-blue-900 h-72 w-144 rounded-lg absolute -top-5 group-hover:-top-6 -left-5 group-hover:-left-6 z-10">
+            <div className="duration-100 bg-blue-900 h-72 w-144 rounded-lg absolute peer-hover:-top-5 -rotate-6 peer-hover:rotate-0 -top-12 peer-hover:-left-5 -left-10 z-10">
             </div>
           </div>
 
@@ -52,10 +53,7 @@ export default function Home() {
 
       <Skills/>
 
-
-      <div id="projects" className="flex flex-col items-center justify-center text-mint-cream bg-google-green">
-        <h1>PROJECTS</h1>
-      </div>
+      <Projects/>
 
 
     </main>

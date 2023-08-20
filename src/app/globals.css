@@ -31,7 +31,7 @@
   }
 
   .bar {
-    @apply h-20 w-1/2 bg-gray-200 rounded-2xl relative shadow-lg hover:shadow-xl duration-200 leading-16 text-2xl text-gray-200 my-3
+    @apply h-20 w-3/4 md:w-1/2 bg-gray-200 rounded-2xl relative shadow-lg hover:shadow-xl duration-200 leading-16 text-2xl text-gray-200 my-3
   }
 
   .bar .fifty {
@@ -57,6 +57,18 @@
 
   .bar .sixty {
     @apply h-16 w-2/3 rounded-lg absolute top-2 left-2 shadow-md
+  }
+
+  .project {
+    @apply w-full
+  }
+
+  #projects-list .project img {
+    @apply max-w-4xl sm:w-1/2 w-80 rounded-lg
+  }
+
+  #projects-list .project h1 {
+    @apply mb-10
   }
 
 }

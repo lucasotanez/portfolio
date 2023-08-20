@@ -2,7 +2,7 @@
 export default function Skills() {
   return (
     
-    <div id="skills" className="flex flex-col items-center justify-center text-cp-green mt-10 w-full">
+    <div id="skills" className="flex flex-col items-center justify-center text-gray-800 mt-10 w-full">
       <h1 className="font-bold text-7xl">SKILLS</h1>
       
       <h1 className="mt-20 mb-10">Languages</h1>
