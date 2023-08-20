@@ -6,7 +6,7 @@ export default function Projects() {
 
       <div id="projects-list" className="flex flex-col items-center justify-center text-center m-auto w-full">
         <div className="project">
-          <h1>PAYWALL SENTRY</h1>
+          <p className="text-4xl mb-8">PAYWALL SENTRY</p>
           <img className="h-auto text-center m-auto" src="/headshot.jpg"/>
         </div>
       </div>
