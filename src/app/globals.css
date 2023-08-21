@@ -60,15 +60,16 @@
   }
 
   .project {
-    @apply w-full
+    @apply w-full relative
   }
 
   #projects-list .project img {
-    @apply max-w-4xl sm:w-1/2 w-80 rounded-lg
+    @apply rounded-lg border-black border-4 relative h-auto hover:cursor-pointer
   }
 
-  #projects-list .project h1 {
-    @apply mb-10
+  #projects-list .project .backdrop {
+    @apply rounded-lg border-4 border-black duration-300 mt-16 overflow-auto
+      flex flex-col sm:items-center sm:justify-center absolute bg-zinc-700
   }
 
 }
