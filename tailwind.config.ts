@@ -45,7 +45,19 @@ const config: Config = {
       },
       lineHeight: {
         '16': '4rem'
+      },
+      dropShadow: {
+        'burn': '8px 8px 0px black'
+      },
+      scale: {
+        '55': '55%',
+        '40': '40%',
+        '30': '30%'
+      },
+      spacing: {
+        '22': '88px'
       }
+
 
     },
   },
