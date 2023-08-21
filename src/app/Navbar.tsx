@@ -8,8 +8,8 @@ export default function Navbar() {
       </div>
       <div id="space" className="text-left ml-0 mr-auto align-right"></div>
       <div id="otherlinks" className="">
-        <Link href='/'>EXPERIENCE</Link>
-        <Link href='/'>SKILLS</Link>
+        <Link href='#projects'>PROJECTS</Link>
+        <Link href='#skills'>SKILLS</Link>
         <Link href='/' className="text-naples-yellow">RESUME</Link>
       </div>
 
