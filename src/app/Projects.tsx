@@ -45,12 +45,12 @@ export default function Projects() {
 
   return (
     <div id="projects" className="pt-32 w-full flex flex-col items-center justify-center text-mint-cream bg-sky-700">
-      <h1 className="font-bold text-7xl mb-32">PROJECTS</h1>
+      <h1 className="font-bold text-7xl mb-32 drop-shadow-lg">PROJECTS</h1>
 
       <div id="projects-list" className="max-w-4xl sm:w-2/3 lg:w-1/2 w-80 flex flex-col items-center justify-center text-center m-auto">
 
         <div className="project m-auto flex flex-col items-center justify-center text-center mb-20">
-          <p className="text-4xl mb-8">PAYWALL SENTRY</p>
+          <p className="text-4xl mb-8 drop-shadow-lg">PAYWALL SENTRY</p>
           <div className="group">
             <img className="z-20 duration-300" onClick={toggleInfo} src="/img/paywallsentry.png"/>
             <div className="z-10 top-0 overflow-auto translate-y-2 group-hover:rotate-3 
@@ -69,7 +69,7 @@ export default function Projects() {
         </div>
 
         <div className="project m-auto flex flex-col items-center justify-center text-center mb-20">
-          <p className="text-4xl mb-8">LINTERVIEW</p>
+          <p className="text-4xl mb-8 drop-shadow-lg">LINTERVIEW</p>
           <div className="group">
             <img className="z-20 duration-300" onClick={toggleInfo} src="/img/linterview.png"/>
             <div className="z-10 top-0 translate-y-2 group-hover:rotate-3 
@@ -113,7 +113,7 @@ export default function Projects() {
 */}
 
         <div className="project m-auto flex flex-col items-center justify-center text-center mb-20">
-          <p className="text-4xl mb-8">DIGIT OCR</p>
+          <p className="text-4xl mb-8 drop-shadow-lg">DIGIT OCR</p>
           <div className="group">
             <img className="z-20 duration-300" onClick={toggleInfo} src="/img/ocr.png"/>
             <div className="z-10 top-0 translate-y-2 group-hover:rotate-3 

@@ -3,7 +3,7 @@ export default function Skills() {
   return (
     
     <div id="skills" className="flex flex-col items-center justify-center text-gray-800 pt-40 w-full">
-      <h1 className="font-bold text-7xl">SKILLS</h1>
+      <h1 className="font-bold text-7xl drop-shadow-sm">SKILLS</h1>
       
       <div className="flex flex-col 2xl:flex-row w-full px-12 md:px-24">
 

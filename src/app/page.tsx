@@ -12,8 +12,8 @@ export default function Home() {
           <div id='intro-wrapper' className="relative scale-50 sm:scale-75 md:scale-100">
             <div id='intro' className="peer flex flex-col h-72 w-144 items-center justify-center
                 text-center rounded-lg bg-gray-200 relative z-20">
-              <h1 className="text-blue-900 font-bold text-7xl mb-4">Lucas Otañez</h1>
-              <p className="text-black text-2xl">Full Stack Software Engineer</p>
+              <h1 className="text-blue-900 font-bold text-7xl mb-4 drop-shadow-lg">Lucas Otañez</h1>
+              <p className="text-black text-2xl drop-shadow-lg">Full Stack Software Engineer</p>
             </div>
             <div className="duration-100 bg-black h-72 w-144 rounded-lg absolute peer-hover:top-5 rotate-6 peer-hover:rotate-0 top-7 peer-hover:left-5 left-10 z-10">
             </div>
@@ -21,7 +21,7 @@ export default function Home() {
             </div>
           </div>
 
-          <p className="sm:mt-28 mt-8 mb-0 mx-12 text-2xl md:text-3xl text-center">Engineering lightning fast and elegant software solutions.</p>
+          <p className="sm:mt-28 mt-8 mb-0 mx-12 text-2xl md:text-3xl text-center drop-shadow-lg">Engineering lightning fast and elegant software solutions.</p>
 
         </div>
 
