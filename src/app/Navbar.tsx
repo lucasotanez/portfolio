@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <div id='navbar' className="fixed z-50 w-full text-mint-cream text-2xl font-medium bg-sky-800 h-20 items-center text-center flex px-6 shadow-lg">
+    <div id='navbar' className="border-black border-2 fixed z-50 w-full text-mint-cream text-2xl font-medium bg-sky-800 h-20 items-center text-center flex px-6 shadow-lg">
       <div>
         <Link href='/' className="drop-shadow-lg">LUCAS OTAÑEZ</Link>
       </div>

@@ -7,22 +7,22 @@ import Projects from './Projects'
 export default function Home() {
   return (
     <main>
-      <div id='top' className="md:pt-40 pt-24 bg-sky-700 text-mint-cream pb-6 sm:pb-12">
+      <div id='top' className="md:pt-40 sm:pt-24 pt-12 bg-sky-700 text-mint-cream pb-6 sm:pb-12">
         <div className="flex flex-col items-center justify-center pt-12">
 
-          <div id='intro-wrapper' className="relative scale-50 sm:scale-75 md:scale-100">
+          <div id='intro-wrapper' className="relative scale-45 sm:scale-75 md:scale-100">
             <div id='intro' className="peer flex flex-col h-72 w-144 items-center justify-center
                 text-center rounded-lg bg-gray-200 relative z-20">
               <h1 className="text-blue-900 font-bold text-7xl mb-4 drop-shadow-lg">Lucas Otañez</h1>
               <p className="text-black text-2xl drop-shadow-lg">Full Stack Software Engineer</p>
             </div>
-            <div className="duration-100 bg-black h-72 w-144 rounded-lg absolute peer-hover:top-5 rotate-6 peer-hover:rotate-0 top-7 peer-hover:left-5 left-10 z-10">
+            <div className="duration-100 bg-black h-72 w-144 rounded-lg absolute sm:peer-hover:top-5 rotate-6 sm:peer-hover:rotate-0 top-7 sm:peer-hover:left-5 left-10 z-10">
             </div>
-            <div className="duration-100 bg-blue-900 h-72 w-144 rounded-lg absolute peer-hover:-top-5 -rotate-6 peer-hover:rotate-0 -top-12 peer-hover:-left-5 -left-10 z-10">
+            <div className="duration-100 bg-blue-900 h-72 w-144 rounded-lg absolute sm:peer-hover:-top-5 -rotate-6 sm:peer-hover:rotate-0 -top-12 sm:peer-hover:-left-5 -left-10 z-10">
             </div>
           </div>
 
-          <p className="sm:mt-28 mt-8 mb-0 mx-12 text-2xl md:text-3xl text-center drop-shadow-lg">Engineering lightning fast and elegant software solutions.</p>
+          <p className="md:mt-28 sm:mt-16 mt-2 mb-0 mx-12 text-2xl md:text-3xl text-center drop-shadow-lg">Engineering lightning fast and elegant software solutions.</p>
 
         </div>
 
@@ -35,7 +35,7 @@ export default function Home() {
             <svg className="icon-link scale-50" xmlns="http://www.w3.org/2000/svg" width="98" height="96" fill="#ffffff" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
           </Link>
 
-          <Link href="https://www.linkedin.com/in/lucas-otanez/" target="_blank" title="Devpost">
+          <Link href="https://devpost.com/lucasotanez?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank" title="Devpost">
             <svg className="icon-link scale-55" fill="#ffffff" width="98" height="96" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M6.002 1.61 0 12.004 6.002 22.39h11.996L24 12.004 17.998 1.61zm1.593 4.084h3.947c3.605 0 6.276 1.695 6.276 6.31 0 4.436-3.21 6.302-6.456 6.302H7.595zm2.517 2.449v7.714h1.241c2.646 0 3.862-1.55 3.862-3.861.009-2.569-1.096-3.853-3.767-3.853z"/></svg>
           </Link>
         </div>
