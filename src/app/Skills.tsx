@@ -9,32 +9,32 @@ export default function Skills() {
 
         <div className="bar-collection flex flex-col items-center content-center">
         <h1 className="mt-20 mb-10 text-4xl lg:text-5xl">Languages</h1>
-          <div className="bar">
+          <div className="bar peer peer-hover:opacity-50">
             <div className="full bg-orange-400">
               <p className="ml-6">C++</p>
             </div>
           </div>
-          <div className="bar">
+          <div className="bar peer peer-hover:opacity-50">
             <div className="ninety bg-orange-400">
               <p className="ml-6">Typescript/Javascript</p>
             </div>
           </div>
-          <div className="bar">
+          <div className="bar peer peer-hover:opacity-50">
             <div className="ninety bg-orange-400">
               <p className="ml-6">Golang</p>
             </div>
           </div>
-          <div className="bar">
+          <div className="bar peer peer-hover:opacity-50">
             <div className="eighty bg-orange-400">
               <p className="ml-6">Python</p>
             </div>
           </div>
-          <div className="bar">
+          <div className="bar peer peer-hover:opacity-50">
             <div className="fifty bg-orange-400">
               <p className="ml-6">Lua</p>
             </div>
           </div>
-          <div className="bar">
+          <div className="bar peer peer-hover:opacity-50">
             <div className="full bg-orange-400">
               <p className="ml-6">HTML/CSS</p>
             </div>
@@ -43,22 +43,22 @@ export default function Skills() {
 
         <div className="bar-collection flex flex-col items-center content-center">
           <h1 className="mt-32 md:mt-20 mb-10 text-4xl lg:text-5xl">Tools</h1>
-          <div className="bar">
+          <div className="bar peer peer-hover:opacity-50">
             <div className="full bg-forest-green">
               <p className="ml-6">Git</p>
             </div>
           </div>
-          <div className="bar">
+          <div className="bar peer peer-hover:opacity-50">
             <div className="full bg-forest-green">
               <p className="ml-6">VIM</p>
             </div>
           </div>
-          <div className="bar">
+          <div className="bar peer peer-hover:opacity-50">
             <div className="full bg-forest-green">
               <p className="ml-6">Webpack</p>
             </div>
           </div>
-          <div className="bar">
+          <div className="bar peer peer-hover:opacity-50">
             <div className="ninety bg-forest-green">
               <p className="ml-6">GDB, Valgrind, Gtest</p>
             </div>
@@ -68,27 +68,27 @@ export default function Skills() {
         <div className="bar-collection flex flex-col items-center content-center">
         <h1 className="mt-32 md:mt-20 mb-10 text-4xl lg:text-5xl 2xl:hidden">Other</h1>
         <h1 className="mt-32 md:mt-20 mb-10 text-4xl lg:text-5xl hidden 2xl:flex">Frameworks & More</h1>
-          <div className="bar">
+          <div className="bar peer peer-hover:opacity-50">
             <div className="full bg-sky-500">
               <p className="ml-6">React</p>
             </div>
           </div>
-          <div className="bar">
+          <div className="bar peer peer-hover:opacity-50">
             <div className="full bg-sky-500">
               <p className="ml-6">SDL2</p>
             </div>
           </div>
-          <div className="bar">
+          <div className="bar peer peer-hover:opacity-50">
             <div className="full bg-sky-500">
               <p className="ml-6">Tailwind</p>
             </div>
           </div>
-          <div className="bar">
+          <div className="bar peer peer-hover:opacity-50">
             <div className="eighty bg-sky-500">
               <p className="ml-6">Bash</p>
             </div>
           </div>
-          <div className="bar">
+          <div className="bar peer peer-hover:opacity-50">
             <div className="sixty bg-sky-500">
               <p className="ml-6">NodeJS</p>
             </div>
