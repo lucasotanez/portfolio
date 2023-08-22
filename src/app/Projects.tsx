@@ -48,7 +48,7 @@ export default function Projects() {
     <div id="projects" className="pt-32 w-full flex flex-col items-center justify-center text-mint-cream bg-sky-700">
       <h1 className="font-bold text-7xl mb-20 drop-shadow-lg">PROJECTS</h1>
 
-      <p className="text-xl italic mb-12">*Click on any image to read a description!</p>
+      <p className="text-xl italic mb-12 mx-8 text-center">*Click on any image to read a description!</p>
 
       <div id="projects-list" className="max-w-4xl sm:w-2/3 lg:w-1/2 w-80 flex flex-col items-center justify-center text-center m-auto">
 
