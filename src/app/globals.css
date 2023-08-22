@@ -73,7 +73,7 @@
   }
 
   #projects-list .project .backdrop {
-    @apply rounded-lg border-4 border-white duration-300 mt-22 overflow-auto
+    @apply rounded-lg border-4 border-white duration-300 mt-22 overflow-y-scroll overflow-x-hidden
       flex flex-col sm:items-center sm:justify-center absolute bg-delft bg-opacity-90
   }
 
