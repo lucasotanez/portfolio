@@ -23,7 +23,7 @@
   }
 
   #navbar a{
-    @apply py-7 overflow-hidden px-2 mx-6 hover:bg-gray-700 text-center 
+    @apply py-7 overflow-hidden px-2 mx-6 text-center hover:drop-shadow-nav duration-100
   }
 
   .bar-collection {
@@ -79,6 +79,10 @@
 
   .icon-link {
     @apply hover:drop-shadow-burn duration-100 drop-shadow-md
+  }
+
+  #dropdown a {
+    @apply text-3xl my-2
   }
 
 }

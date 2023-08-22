@@ -47,7 +47,8 @@ const config: Config = {
         '16': '4rem'
       },
       dropShadow: {
-        'burn': '8px 8px 0px black'
+        'burn': '8px 8px 0px black',
+        'nav': '4px 4px 0px black',
       },
       scale: {
         '55': '55%',
