@@ -7,8 +7,8 @@ import Navbar from './Navbar'
 const outfit = Outfit({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'Portfolio',
-  description: 'Lucas Otanez Web Portfolio',
+  title: 'Lucas Otanez',
+  description: 'Web Portfolio',
 }
 
 export default function RootLayout({
