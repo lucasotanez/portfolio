@@ -48,7 +48,7 @@ export default function Navbar() {
           <Link href='#skills' className="drop-shadow-lg">SKILLS</Link>
           <Link href='/' className="text-naples-yellow drop-shadow-lg">RESUME</Link>
         </div>
-        <div id="drop-btn" className="hover:drop-shadow-nav md:hidden flex flex-col items-center justify-center text-white mx-10 px-2" >
+        <div id="drop-btn" className="duration-100 hover:drop-shadow-nav md:hidden flex flex-col items-center justify-center text-white mx-10 px-2" >
           <svg id="btn-svg" className="duration-300 ease-in-out" width="30" height="30" viewBox="0 0 184 89" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fillRule="evenodd" clipRule="evenodd" d="M92 39L184 0.865234V50.8652L92 89L0 50.8652V0.865234L92 39Z" fill="#ffffff"/>
           </svg>
