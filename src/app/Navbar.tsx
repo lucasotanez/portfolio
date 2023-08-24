@@ -46,7 +46,7 @@ export default function Navbar() {
         <div id="otherlinks" className="hidden md:block">
           <Link href='#projects' className="drop-shadow-lg">PROJECTS</Link>
           <Link href='#skills' className="drop-shadow-lg">SKILLS</Link>
-          <Link href='/' className="text-naples-yellow drop-shadow-lg">RESUME</Link>
+          <Link href='/resume.pdf' target="_blank" className="text-naples-yellow drop-shadow-lg">RESUME</Link>
         </div>
         <div id="drop-btn" className="duration-100 hover:drop-shadow-nav md:hidden flex flex-col items-center justify-center text-white mx-10 px-2" >
           <svg id="btn-svg" className="duration-300 ease-in-out" width="30" height="30" viewBox="0 0 184 89" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,7 +60,7 @@ export default function Navbar() {
         left-0 border-white border-y-2 ease-out">
         <Link href="#skills" onClick={ close }>SKILLS</Link>
         <Link href="#projects" onClick={ close }>PROJECTS</Link>
-        <Link href="/" onClick={ close } className="text-naples-yellow">RESUME</Link>
+        <Link href="/resume.pdf" target="_blank" onClick={ close } className="text-naples-yellow">RESUME</Link>
                 
       </div>
 
