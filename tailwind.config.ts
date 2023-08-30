@@ -58,9 +58,22 @@ const config: Config = {
       },
       spacing: {
         '22': '88px'
+      },
+      animation: {
+        'cardLeft': 'floatLeft 4s ease-in-out infinite',
+        'cardRight': 'floatRight 4s ease-in-out infinite',
+
+      },
+      keyframes: {
+        floatLeft: {
+          '0%, 100%': { transform: 'rotate(-7deg) translateX(-10px)'},
+          '50%': { transform: 'rotate(-5deg) scale(105%)' }
+        },
+        floatRight: {
+          '0%, 100%': { transform: 'rotate(7deg) translateX(10px)'},
+          '50%': { transform: 'rotate(5deg) scale(105%)' }
+        },
       }
-
-
     },
   },
   plugins: [],
