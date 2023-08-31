@@ -36,7 +36,7 @@
   }
 
   .bar p {
-    @apply pointer-events-none
+    @apply pointer-events-none font-semibold 
   }
 
   .bar .fifty {
