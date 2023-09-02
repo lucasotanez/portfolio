@@ -46,7 +46,7 @@ export default function Projects() {
 
   return (
     <div id="projects" className="pt-32 w-full flex flex-col items-center justify-center text-mint-cream bg-sky-700">
-      <h1 className="font-bold text-7xl mb-20 drop-shadow-lg">PROJECTS</h1>
+      <h1 className="font-bold text-6xl sm:text-7xl mb-20 drop-shadow-lg">PROJECTS</h1>
 
       <p className="text-xl italic mb-12 mx-8 text-center">*Click on any image to read a description!</p>
 

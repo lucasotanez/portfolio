@@ -49,6 +49,9 @@ const config: Config = {
       dropShadow: {
         'burn': '8px 8px 0px black',
         'nav': '4px 4px 0px black',
+        'title': '4px 4px 0px #f7fff7',
+        'cardLeft': '-8px -8px 0px black',
+        'cardRight': '8px 8px 0px #1e3a8a'
       },
       scale: {
         '55': '55%',
@@ -73,6 +76,9 @@ const config: Config = {
           '0%, 100%': { transform: 'rotate(7deg) translateX(10px)'},
           '50%': { transform: 'rotate(5deg) scale(105%)' }
         },
+      },
+      fontSize: {
+        '7.5xl': '80px'
       }
     },
   },

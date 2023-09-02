@@ -12,12 +12,18 @@ export default function Home() {
           <div id='intro-wrapper' className="relative scale-45 sm:scale-75 md:scale-100">
             <div id='intro' className="peer flex flex-col h-72 w-144 items-center justify-center
                 text-center rounded-lg bg-gray-200 relative z-20">
-              <h1 className="text-blue-900 font-bold text-7xl mb-4 drop-shadow-lg">Lucas Otañez</h1>
+              <h1 className="text-blue-900 font-bold text-7.5xl mb-4">Lucas Otañez</h1>
               <p className="text-black sm:text-2xl text-3xl drop-shadow-lg">Full Stack Software Engineer</p>
             </div>
-            <div className="animate-cardRight sm:peer-hover:animate-none duration-100 bg-black h-72 w-144 rounded-lg absolute sm:peer-hover:top-5 rotate-6 sm:peer-hover:rotate-0 top-7 sm:peer-hover:left-5 left-10 z-10">
+            <div className="animate-cardRight sm:peer-hover:animate-none duration-100
+              bg-black h-72 w-144 rounded-lg absolute sm:peer-hover:top-5 rotate-6
+              sm:peer-hover:rotate-0 top-7 sm:peer-hover:left-5 left-10 z-10
+              drop-shadow-cardRight sm:peer-hover:drop-shadow-none">
             </div>
-            <div className="animate-cardLeft sm:peer-hover:animate-none duration-100 bg-blue-900 h-72 w-144 rounded-lg absolute sm:peer-hover:-top-5 -rotate-6 sm:peer-hover:rotate-0 -top-12 sm:peer-hover:-left-5 -left-10 z-10">
+            <div className="animate-cardLeft sm:peer-hover:animate-none duration-100
+              bg-blue-900 h-72 w-144 rounded-lg absolute sm:peer-hover:-top-5 -rotate-6
+              sm:peer-hover:rotate-0 -top-12 sm:peer-hover:-left-5 -left-10 z-10
+              drop-shadow-cardLeft sm:peer-hover:drop-shadow-none">
             </div>
           </div>
 
