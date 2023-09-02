@@ -73,8 +73,13 @@
   }
 
   #projects-list .project .backdrop {
+    scrollbar-width: none;
     @apply rounded-lg border-4 border-white duration-300 mt-22 overflow-y-scroll overflow-x-hidden
       flex flex-col sm:items-center sm:justify-center absolute bg-delft bg-opacity-90
+  }
+
+  #projects-list .project .backdrop::-webkit-scrollbar {
+    @apply hidden;
   }
 
   .icon-link {
