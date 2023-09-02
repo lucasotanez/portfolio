@@ -20,13 +20,13 @@ export default function Skills() {
             </div>
           </div>
           <div className="bar">
-            <div className="ninety bg-orange-400">
-              <p className="ml-6">Golang</p>
+            <div className="full bg-orange-400">
+              <p className="ml-6">Java</p>
             </div>
           </div>
           <div className="bar">
-            <div className="eighty bg-orange-400">
-              <p className="ml-6">Java</p>
+            <div className="ninety bg-orange-400">
+              <p className="ml-6">Golang</p>
             </div>
           </div>
           <div className="bar">
