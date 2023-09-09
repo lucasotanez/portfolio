@@ -6,9 +6,11 @@ import Navbar from './Navbar'
 const outfit = Outfit({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'Lucas Otanez',
+  title: 'Lucas Otanez - Full Stack Engineer',
   description: 'Web Portfolio',
   openGraph: {
+    title: 'Lucas Otanez - Full Stack Engineer',
+    description: 'Web Portfolio',
     images: [
       {
         url: 'https://lucasotanez.vercel.app/img/thumbnail.png',
