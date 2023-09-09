@@ -15,9 +15,7 @@
 
 @layer components {
   h1 {
-    @apply text-5xl font-medium
-  }
-
+    @apply text-5xl font-medium }
   #content {
     min-height: calc(100vh - 80px)
   }
@@ -69,7 +67,7 @@
   }
 
   #projects-list .project img {
-    @apply rounded-lg border-black border-4 relative h-auto hover:cursor-pointer pointer-events-none
+    @apply rounded-lg border-better-black border-4 relative h-auto hover:cursor-pointer pointer-events-none
   }
 
   #projects-list .project .backdrop {

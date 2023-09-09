@@ -18,6 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <meta property="og:image" content='<generated>'/>
+      <meta property="og:image:type" content='<generated>'/>
+      <meta property="og:image:width" content='<generated>'/>
+      <meta property="og:image:height" content='<generated>'/>
+
       <body className={outfit.className}>
         <Navbar/>
         {children}

@@ -55,7 +55,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div id="dropdown" className="fixed bg-black text-white w-full h-0 flex flex-col
+      <div id="dropdown" className="fixed bg-better-black text-white w-full h-0 flex flex-col
         justify-center items-center duration-200 overflow-hidden z-50 font-bold top-20
         left-0 border-white border-y-2 ease-out">
         <Link href="#skills" onClick={ close }>SKILLS</Link>

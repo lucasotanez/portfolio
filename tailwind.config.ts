@@ -14,6 +14,7 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
+        'better-black': '#101014',
         'black-olive': '#424342',
         'cp-green': '#244f26',
         'office-green': '#256d1b',
@@ -47,10 +48,10 @@ const config: Config = {
         '16': '4rem'
       },
       dropShadow: {
-        'burn': '8px 8px 0px black',
-        'nav': '4px 4px 0px black',
+        'burn': '8px 8px 0px #101014',
+        'nav': '4px 4px 0px #101014',
         'title': '4px 4px 0px #f7fff7',
-        'cardLeft': '-8px -8px 0px black',
+        'cardLeft': '-8px -8px 0px #101014',
         'cardRight': '8px 8px 0px #1e3a8a'
       },
       scale: {
