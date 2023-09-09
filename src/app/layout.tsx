@@ -9,13 +9,9 @@ export const metadata: Metadata = {
   title: 'Lucas Otanez',
   description: 'Web Portfolio',
   openGraph: {
-    title: 'Lucas Otanez - Full Stack Engineer',
-    description: 'Web Portfolio',
     images: [
       {
         url: 'https://lucasotanez.vercel.app/img/thumbnail.png',
-        width: 800,
-        height: 600,
       },
     ]
   }
