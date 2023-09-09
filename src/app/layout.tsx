@@ -9,6 +9,17 @@ const outfit = Outfit({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: 'Lucas Otanez',
   description: 'Web Portfolio',
+  openGraph: {
+    title: 'Lucas Otanez - Full Stack Engineer',
+    description: 'Web Portfolio',
+    images: [
+      {
+        url: 'src/img/thumbnail.png',
+        width: 800,
+        height: 600,
+      },
+    ]
+  }
 }
 
 export default function RootLayout({
@@ -18,11 +29,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <meta property="og:image" content='<generated>'/>
-      <meta property="og:image:type" content='<generated>'/>
-      <meta property="og:image:width" content='<generated>'/>
-      <meta property="og:image:height" content='<generated>'/>
-
       <body className={outfit.className}>
         <Navbar/>
         {children}
