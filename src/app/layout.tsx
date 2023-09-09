@@ -3,7 +3,6 @@ import type { Metadata } from 'next'
 import { Outfit } from 'next/font/google'
 import Navbar from './Navbar'
 
-//const inter = Ubuntu({ weight: '500', subsets: ["cyrillic"] })
 const outfit = Outfit({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
@@ -14,7 +13,7 @@ export const metadata: Metadata = {
     description: 'Web Portfolio',
     images: [
       {
-        url: 'src/img/thumbnail.png',
+        url: 'https://lucasotanez.vercel.app/img/thumbnail.png',
         width: 800,
         height: 600,
       },
