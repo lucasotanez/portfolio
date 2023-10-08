@@ -60,7 +60,7 @@ export default function Projects() {
             </Link>
           </div>
           <div className="group">
-            <img loading="lazy" className="z-20 duration-300" onClick={toggleInfo} src="/img/paywallsentry.png"/>
+            <img className="z-20 duration-300" onClick={toggleInfo} src="/img/paywallsentry.png"/>
             <div className="z-10 top-0 overflow-auto translate-y-2 group-hover:rotate-3 
                 group-hover:translate-x-12 backdrop" onClick={toggleInfo}>
               <p className="pointer-events-none mx-8 sm:mx-12 my-4 sm:text-md md:text-xl text-sm">This Google Chrome extension
@@ -87,7 +87,7 @@ export default function Projects() {
             </Link>
           </div>
           <div className="group">
-            <img loading="lazy" className="z-20 duration-300" onClick={toggleInfo} src="/img/linterview.png"/>
+            <img className="z-20 duration-300" onClick={toggleInfo} src="/img/linterview.png"/>
             <div className="z-10 top-0 translate-y-2 group-hover:rotate-3 
                 group-hover:translate-x-12 backdrop" onClick={toggleInfo}>
               <p className="pointer-events-none mx-8 sm:mx-12 my-4 sm:text-md md:text-xl text-sm">
@@ -120,7 +120,7 @@ export default function Projects() {
             </Link>
           </div>
           <div className="group">
-            <img loading="lazy" className="z-20 duration-300" onClick={toggleInfo} src="/img/icarus.gif"/>
+            <img className="z-20 duration-300" onClick={toggleInfo} src="/img/icarus.gif"/>
             <div className="z-10 top-0 translate-y-2 group-hover:rotate-3 
                 group-hover:translate-x-12 backdrop" onClick={toggleInfo}>
               <p className="pointer-events-none mx-8 sm:mx-12 my-4 sm:text-md md:text-xl text-sm">
@@ -145,7 +145,7 @@ export default function Projects() {
             </Link>
           </div>
           <div className="group">
-            <img loading="lazy" className="z-20 duration-300" onClick={toggleInfo} src="/img/ocr.png"/>
+            <img className="z-20 duration-300" onClick={toggleInfo} src="/img/ocr.png"/>
             <div className="z-10 top-0 translate-y-2 group-hover:rotate-3 
                 group-hover:translate-x-12 backdrop" onClick={toggleInfo}>
               <p className="pointer-events-none mx-8 sm:mx-12 my-4 sm:text-md md:text-xl text-sm">
