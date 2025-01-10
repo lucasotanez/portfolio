@@ -45,6 +45,7 @@ export default function Navbar() {
         <div id="space" className="text-left ml-0 mr-auto align-right"></div>
         <div id="otherlinks" className="hidden md:block">
           <Link href='#projects' className="drop-shadow-lg">PROJECTS</Link>
+          <Link href='#experience' className="drop-shadow-lg">EXPERIENCE</Link>
           <Link href='#skills' className="drop-shadow-lg">SKILLS</Link>
           <Link href='/resume.pdf' target="_blank" className="text-naples-yellow drop-shadow-lg">RESUME</Link>
         </div>

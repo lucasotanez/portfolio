@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Skills from './Skills'
 import Projects from './Projects'
+import Experience from './Experience'
 
 export default function Home() {
   return (
@@ -61,6 +62,8 @@ export default function Home() {
       </div>
 
       <Skills/>
+
+      <Experience/>
 
       <Projects/>
 
